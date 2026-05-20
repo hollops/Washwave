@@ -139,7 +139,8 @@ Luxury-inspired car care marketplace with premium dark UI.
 
 🛠️ Setup
 Clone the repository:
-git clone https://github.com/your-username/washwave.git
+https://github.com/hollops/Washwave.git
+
 Open the project folder and run:
 index.html
 
