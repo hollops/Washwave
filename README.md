@@ -65,7 +65,15 @@ Automotive-inspired visual hierarchy
 
 
 📂 Project Structure
-WashWave/│├── index.html├── garage-details.html├── style.css├── script.js│├── assets/│   ├── images/│   └── icons/│└── README.md
+WashWave/│
+├── index.html
+├── garage-details.html
+├── style.css
+├── script.js│
+├── assets/│   
+├── images/│   
+└── icons/│
+└── README.md
 
 📱 Pages
 🏠 Homepage
