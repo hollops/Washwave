@@ -58,18 +58,18 @@ svg {
   flex-shrink: 0;
 }
 
-.hero-1 {
+.hero {
   min-height: 100vh;
 }
 
-.hero-1a,
+.hero-1,
 .details-main,
 .hero-5 {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
 }
 
-.hero-1a {
+.hero-1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -82,7 +82,7 @@ svg {
   z-index: 1000;
 }
 
-.hero-1b {
+.hero-1a {
   color: var(--accent);
   font-family: "Outfit", sans-serif;
   font-size: 1.6rem;
@@ -91,34 +91,34 @@ svg {
   padding-left: 100px;
 }
 
-.hero-1c {
+.hero-1b {
   display: flex;
   align-items: center;
   gap: 28px;
 }
 
-.hero-1c a,
-.hero-1d a {
+.hero-1b a,
+.hero-2a {
   color: rgba(243, 228, 215, 0.82);
   transition:
     color 0.2s ease,
     opacity 0.2s ease;
 }
 
-.hero-1c a {
+.hero-1b a {
   position: relative;
   font-size: 0.95rem;
 }
 
-.hero-1c a.active,
-.hero-1c a:hover,
-.hero-1d a:hover,
+.hero-1b a.active,
+.hero-1b a:hover,
+.hero-2a:hover,
 .hero-5f a:hover,
 .hero-5 li a:hover {
   color: var(--accent-soft);
 }
 
-.hero-1c a.active::after {
+.hero-1b a.active::after {
   content: "";
   position: absolute;
   left: 0;
@@ -128,14 +128,14 @@ svg {
   background: var(--accent);
 }
 
-.hero-1d {
+.hero-2 {
   display: flex;
   align-items: center;
   gap: 14px;
   padding-right: 100px;
 }
 
-.hero-1d a,
+.hero-2a,
 .hero-5c a {
   display: inline-grid;
   place-items: center;
@@ -581,7 +581,7 @@ svg {
 }
 
 @media (max-width: 980px) {
-  .hero-1c {
+  .hero-1b {
     display: none;
   }
 
@@ -596,21 +596,21 @@ svg {
 }
 
 @media (max-width: 720px) {
-  .hero-1a,
+  .hero-1,
   .details-main {
     width: min(100% - 20px, 1180px);
   }
 
-  .hero-1a {
+  .hero-1 {
     margin-left: 0;
     width: 100%;
   }
 
-  .hero-1b {
+  .hero-1a {
     padding-left: 20px;
   }
 
-  .hero-1d {
+  .hero-2 {
     padding-right: 20px;
   }
 
