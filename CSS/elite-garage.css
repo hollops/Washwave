@@ -522,7 +522,10 @@ z-index: 1;
   align-items: center;
   gap: 10px;
 }
-
+.hero-6c img{
+  stroke-opacity: -1px;
+  stroke-color: var(--text);
+}
 .hero-6 h4 {
   margin: 0 0 18px;
   color: #fff2e5;
